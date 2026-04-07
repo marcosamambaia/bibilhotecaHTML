@@ -7,8 +7,9 @@ O objetivo é criar uma página institucional simples, organizada e responsiva, 
  Acesso ao site
 ------------------------------------------------------------
 O projeto está publicado com GitHub Pages e pode ser acessado pelo link:
+```
 https://marcosamambaia.github.io/bibilhotecaHTML/
-
+```
 ------------------------------------------------------------
  Estrutura do projeto
 ------------------------------------------------------------
@@ -42,11 +43,12 @@ bibilhotecaHTML/
 git clone https://github.com/marcosamambaia/bibilhotecaHTML.git
 ```
 # Entre na pasta
+```
 cd bibilhotecaHTML
-
+```
 # Abra o index.html no navegador
 
 ------------------------------------------------------------
- Autor
+ Autor 
 ------------------------------------------------------------
 Projeto desenvolvido por Marco Samambaia como parte de atividades acadêmicas da UniFECAF.
