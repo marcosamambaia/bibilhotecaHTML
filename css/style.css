@@ -1,0 +1,245 @@
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão da página */
+  margin: 0;                      /* Remove margens externas do body */
+  background-color: #f5f5f5;       /* Cor de fundo clara */
+  color: #333;                     /* Cor padrão do texto */
+}
+
+/* Barra de navegação */
+header {
+  background-color: #080c14; /* Fundo escuro para o cabeçalho */
+  padding: 15px 0;           /* Espaço interno acima e abaixo */
+}
+
+nav ul {
+  list-style: none;              /* Remove os marcadores da lista */
+  display: flex;                 /* Exibe os itens em linha */
+  justify-content: center;       /* Centraliza os itens no menu */
+  gap: 40px;                     /* Espaço entre os itens */
+  margin: 0;                     /* Remove margens padrão */
+  padding: 0;                    /* Remove espaçamento interno padrão */
+}
+
+nav ul li a {
+  color: #fff;                   /* Links em branco */
+  text-decoration: none;         /* Remove sublinhado */
+  font-weight: bold;             /* Deixa o texto em negrito */
+}
+
+/* Banner */
+#banner {
+  text-align: center; /* Centraliza o conteúdo dentro da seção */
+  padding: 40px 0;    /* Espaço acima e abaixo do banner */
+}
+
+#banner img {
+  width: 60%;         /* Imagem ocupa 60% da largura da tela */
+  max-width: 800px;   /* Limite máximo em pixels */
+  height: auto;       /* Mantém proporção da imagem */
+  border-radius: 8px; /* Cantos arredondados */
+  display: inline-block; /* Permite centralização */
+}
+
+/* Seção Sobre */
+#biblioteca {
+  background-color: #e3f2f9; /* Fundo azul claro */
+  color: #0a0909;            /* Cor do texto */
+  padding: 60px 40px;        /* Espaçamento interno */
+}
+
+#biblioteca h2 {
+  text-align: center; /* Centraliza o título */
+  color: #d30529;     /* Vermelho UniFECAF */
+  font-size: 2.2em;   /* Tamanho maior */
+  margin-bottom: 30px; /* Espaço abaixo do título */
+}
+
+.texto-biblioteca {
+  display: flex;           /* Exibe os parágrafos lado a lado */
+  gap: 40px;               /* Espaço entre os textos */
+  justify-content: center; /* Centraliza os blocos */
+  margin-bottom: 40px;     /* Espaço abaixo do texto */
+}
+
+.texto-biblioteca p {
+  flex: 1;             /* Cada parágrafo ocupa espaço proporcional */
+  max-width: 400px;    /* Limite de largura */
+  line-height: 1.6;    /* Espaçamento entre linhas */
+}
+
+.galeria-biblioteca {
+  display: grid;                       /* Usa grid para organizar imagens */
+  grid-template-columns: repeat(4, 1fr); /* 4 imagens por linha */
+  gap: 1px;                            /* Espaço mínimo entre imagens */
+  justify-items: center;               /* Centraliza cada imagem na célula */
+}
+
+.galeria-biblioteca img {
+  width: 100%;         /* Imagem ocupa toda a célula */
+  max-width: 400px;    /* Limite máximo de largura */
+  border-radius: 6px;  /* Cantos arredondados */
+  object-fit: cover;   /* Ajusta imagem sem distorcer */
+}
+
+/* Seção Livros */
+#livros {
+  background-color: #333; /* Fundo escuro */
+  color: #fff;            /* Texto branco */
+  padding: 60px 40px;     /* Espaçamento interno */
+  text-align: center;     /* Centraliza conteúdo */
+}
+
+#livros h2 {
+  color: #d30529;     /* Vermelho UniFECAF */
+  font-size: 2em;     /* Tamanho do título */
+  margin-bottom: 40px; /* Espaço abaixo do título */
+}
+
+.livros-grid {
+  display: grid;                       /* Usa grid para organizar os cards */
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas (2 linhas com 6 livros) */
+  gap: 20px;                           /* Espaço entre os cards */
+}
+
+
+
+.livro-card:hover {
+  transform: translateY(-5px); /* Move o card levemente para cima no hover */
+}
+
+.livro-card {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  width: 250px;          /* diminui a largura do card */
+  margin: 0 auto;        /* centraliza */
+}
+
+.livro-card img {
+  width: 100%;
+  aspect-ratio: 3/4;     /* proporção típica de capa de livro */
+  object-fit: contain;   /* mostra a capa inteira sem cortar */
+  background-color: #fff;/* fundo branco para preencher espaços */
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+
+
+.livro-card h3 {
+  margin: 10px 0; /* Espaço acima e abaixo do título */
+}
+
+.livro-card p {
+  font-size: 0.9em;     /* Texto menor */
+  margin-bottom: 15px;  /* Espaço abaixo do parágrafo */
+}
+
+.livro-card button {
+  background-color: #d30529; /* Vermelho UniFECAF */
+  color: #fff;               /* Texto branco */
+  border: none;              /* Remove borda padrão */
+  padding: 10px 15px;        /* Espaçamento interno */
+  border-radius: 4px;        /* Cantos arredondados */
+  cursor: pointer;           /* Mostra cursor de clique */
+}
+
+.livro-card button:hover {
+  background-color: #a0041f; /* Vermelho mais escuro no hover */
+}
+
+/* Seção Unidades */
+#unidades {
+  background-color: #f5f5f5; /* Define fundo claro para destacar os blocos */
+  color: #333;              /* Cor padrão do texto */
+  padding: 60px 40px;       /* Espaçamento interno em cima/baixo e laterais */
+}
+
+#unidades h2 {
+  text-align: center;       /* Centraliza o título "AS UNIDADES" */
+  color: #d30529;           /* Vermelho UniFECAF para dar destaque */
+  font-size: 2em;           /* Tamanho maior para o título */
+  margin-bottom: 50px;      /* Espaço abaixo do título */
+}
+
+.unidade {
+  display: flex;            /* Exibe imagem e texto lado a lado */
+  align-items: center;      /* Alinha verticalmente ao centro */
+  gap: 30px;                /* Espaço entre imagem e texto */
+  margin-bottom: 40px;      /* Espaço entre cada unidade */
+}
+
+.unidade img {
+  width: 220px;             /* Largura fixa da imagem */
+  height: auto;             /* Mantém proporção original */
+  border-radius: 8px;       /* Cantos arredondados */
+  object-fit: cover;        /* Ajusta imagem para preencher sem distorcer */
+}
+
+.conteudo-unidade h3 {
+  margin: 0 0 10px;         /* Remove margem superior e adiciona abaixo */
+  font-size: 1.4em;         /* Tamanho do subtítulo (Unidade 1, 2, 3) */
+  color: #080c14;           /* Cor escura para contraste */
+}
+
+.conteudo-unidade p {
+  line-height: 1.6;         /* Espaçamento entre linhas para melhor leitura */
+  max-width: 600px;         /* Limite de largura do texto */
+}
+
+/* Seção Contatos */
+/* Seção Contatos */
+#contato {
+  background-color: #b3ccde; /* Define fundo azul claro para diferenciar da seção anterior */
+  color: #333;               /* Cor padrão do texto (cinza escuro) */
+  padding: 60px 40px;        /* Espaçamento interno: 60px em cima/baixo e 40px nas laterais */
+}
+
+#contato h2 {
+  text-align: center;        /* Centraliza o título "Contatos" */
+  color: #d30529;            /* Vermelho UniFECAF para destaque */
+  font-size: 2.2em;          /* Tamanho maior para o título */
+  margin-bottom: 40px;       /* Espaço abaixo do título */
+}
+
+.contatos-container {
+  display: flex;             /* Exibe texto e imagem lado a lado */
+  align-items: flex-start;   /* Alinha os itens no topo */
+  justify-content: space-between; /* Espaço máximo entre texto e imagem */
+  gap: 40px;                 /* Espaço entre os dois blocos */
+}
+
+.texto-contatos {
+  flex: 1;                   /* Texto ocupa todo espaço disponível */
+  line-height: 1.6;          /* Espaçamento entre linhas para melhor leitura */
+  max-width: 500px;          /* Limite de largura do texto */
+}
+
+.texto-contatos p {
+  margin-bottom: 10px;       /* Espaço entre cada parágrafo */
+}
+
+.btn-contato {
+  background-color: #d30529; /* Vermelho UniFECAF para o botão */
+  color: #fff;               /* Texto branco */
+  border: none;              /* Remove borda padrão */
+  padding: 12px 20px;        /* Espaçamento interno do botão */
+  border-radius: 6px;        /* Cantos arredondados */
+  cursor: pointer;           /* Cursor de clique */
+  margin-top: 20px;          /* Espaço acima do botão */
+  font-weight: bold;         /* Texto em negrito */
+}
+
+.btn-contato:hover {
+  background-color: #a0041f; /* Vermelho mais escuro ao passar o mouse */
+}
+
+.imagem-contatos img {
+  width: 320px;              /* Largura fixa da imagem */
+  height: auto;              /* Mantém proporção original */
+  border-radius: 8px;        /* Cantos arredondados */
+  object-fit: cover;         /* Ajusta imagem para preencher sem distorcer */
+}

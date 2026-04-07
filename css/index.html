@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Define que o documento é HTML5 e está em português do Brasil -->
+<head>
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres (acentos funcionam corretamente) -->
+  <title>Biblioteca UniFECAF</title> <!-- Título da aba do navegador -->
+  <link rel="stylesheet" href="../css/style.css"> <!-- Importa o arquivo CSS externo -->
+</head>
+<body>
+  <!-- Navegação -->
+  <header> <!-- Cabeçalho da página -->
+    <nav> <!-- Área de navegação -->
+      <ul> <!-- Lista de links do menu -->
+        <li><a href="#biblioteca">Biblioteca</a></li> <!-- Link que rola até a seção Biblioteca -->
+        <li><a href="#livros">Livros</a></li> <!-- Link que rola até a seção Livros -->
+        <li><a href="#unidades">Unidades</a></li> <!-- Link que rola até a seção Unidades -->
+        <li><a href="#contato">Contatos</a></li> <!-- Link que rola até a seção Contatos -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner principal -->
+  <section id="banner"> <!-- Seção do banner -->
+    <img src="../img/bib5.webp" alt="Imagem da Universidade" /> <!-- Imagem do banner -->
+  </section>
+
+  <!-- Sobre a biblioteca -->
+  <section id="biblioteca"> <!-- Seção Biblioteca -->
+    <h2>SOBRE A NOSSA BIBLIOTECA</h2> <!-- Título da seção -->
+  
+    <div class="texto-biblioteca"> <!-- Bloco de texto dividido em dois parágrafos -->
+      <p>
+        Nossa Biblioteca UniFECAF é um espaço pensado para unir tradição e inovação. Aqui, o 
+        conhecimento ganha vida em cada estante, em cada livro e em cada ambiente de estudo.
+        Com um acervo diversificado e atualizado, oferecemos aos alunos e professores acesso a 
+        obras clássicas, publicações técnicas e materiais digitais que acompanham as tendências
+        do mercado. Além disso, nossos espaços foram projetados para proporcionar conforto e 
+        praticidade, seja para leitura individual, pesquisa acadêmica ou trabalhos em grupo.
+      </p>
+      <p>
+        A biblioteca também é um ponto de encontro: um lugar onde ideias se conectam, 
+        projetos nascem e a comunidade acadêmica se fortalece. Mais do que livros, 
+        oferecemos experiências que ampliam horizontes e estimulam o aprendizado contínuo.
+      </p>
+    </div>
+
+    <div class="galeria-biblioteca"> <!-- Galeria de imagens da biblioteca -->
+      <img src="../img/bib1.jpg" alt="Biblioteca 1">
+      <img src="../img/bib2.jpg" alt="Biblioteca 2">
+      <img src="../img/bib3.jpg" alt="Biblioteca 3">
+      <img src="../img/bib4.png" alt="Biblioteca 4">
+    </div>
+  </section>
+</body>
+</html>
+
+
+<!-- Sobre a livros -->
+<section id="livros"> <!-- Seção principal dos livros, identificada pelo id "livros" -->
+  <h2>NOSSOS LIVROS</h2> <!-- Título da seção -->
+
+  <div class="livros-grid"> <!-- Container que organiza os cards em grade -->
+
+    <!-- Card 1 -->
+    <div class="livro-card"> <!-- Cada livro é um card -->
+      <img src="../img/computacao.jpg" alt="Introdução à Ciência da Computação"> <!-- Capa do livro -->
+      <h3>Introdução à Ciência da Computação</h3> <!-- Nome do livro -->
+      <p>Fundamentos da computação, lógica de programação e algoritmos. Ideal para iniciantes em TI.</p> <!-- Descrição -->
+      <button>Saiba mais</button> <!-- Botão de ação -->
+    </div>
+
+    <!-- Card 2 -->
+    <div class="livro-card">
+      <img src="../img/engenharia-software.jpg" alt="Engenharia de Software: Fundamentos e Aplicações">
+      <h3>Engenharia de Software: Fundamentos e Aplicações</h3>
+      <p>Metodologias de desenvolvimento, ciclo de vida e boas práticas de projeto.</p>
+      <button>Saiba mais</button>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="livro-card">
+      <img src="../img/estatistica.jpg" alt="Fundamentos de Estatística Aplicada">
+      <h3>Fundamentos de Estatística Aplicada</h3>
+      <p>Conceitos essenciais de probabilidade, análise de dados e inferência estatística.</p>
+      <button>Saiba mais</button>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="livro-card">
+      <img src="../img/gestao-projetos.jpg" alt="Gestão de Projetos: Teoria e Prática">
+      <h3>Gestão de Projetos: Teoria e Prática</h3>
+      <p>Técnicas de planejamento, execução e controle de projetos com exemplos práticos.</p>
+      <button>Saiba mais</button>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="livro-card">
+      <img src="../img/didatica.jpg" alt="Didática e Prática de Ensino">
+      <h3>Didática e Prática de Ensino</h3>
+      <p>Métodos pedagógicos, estratégias de ensino e reflexões sobre a prática docente.</p>
+      <button>Saiba mais</button>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="livro-card">
+      <img src="../img/fisica.jpeg" alt="Introdução à Física Experimental">
+      <h3>Introdução à Física Experimental</h3>
+      <p>Experimentos básicos de mecânica, eletricidade e óptica para estudantes de ciências naturais.</p>
+      <button>Saiba mais</button>
+    </div>
+
+  </div> <!-- Fim da grade de livros -->
+</section> <!-- Fim da seção Livros -->
+
+<!-- Sobre as unidades -->
+<section id="unidades"> <!-- Seção principal das unidades, identificada pelo id "unidades" -->
+  <h2>AS UNIDADES</h2> <!-- Título da seção -->
+
+  <!-- Unidade 1 -->
+  <div class="unidade"> <!-- Bloco da unidade 1 -->
+    <img src="../img/unidade1.png" alt="Unidade 1"> <!-- Imagem ilustrativa da unidade -->
+    <div class="conteudo-unidade"> <!-- Texto da unidade -->
+      <h3>Unidade 1</h3> <!-- Subtítulo -->
+      <p>
+        Nesta unidade você terá contato com a base da construção de páginas web: o HTML. 
+        Aqui serão apresentados os principais elementos, como títulos, parágrafos, listas, 
+        links e imagens. O objetivo é que você compreenda a estrutura de um site e saiba 
+        organizar o conteúdo de forma semântica e acessível, criando páginas simples e bem estruturadas.
+      </p>
+    </div>
+  </div>
+
+  <!-- Unidade 2 -->
+  <div class="unidade"> <!-- Bloco da unidade 2 -->
+    <img src="../img/unidade2.png" alt="Unidade 2"> <!-- Imagem ilustrativa da unidade -->
+    <div class="conteudo-unidade"> <!-- Texto da unidade -->
+      <h3>Unidade 2</h3> <!-- Subtítulo -->
+      <p>
+        A segunda unidade é dedicada ao Web Design, onde você aprenderá a transformar páginas 
+        simples em interfaces atraentes e funcionais. Serão abordados conceitos de cores, 
+        tipografia, layout responsivo e usabilidade. O foco é desenvolver um olhar crítico 
+        e criativo para projetar experiências digitais que sejam agradáveis e intuitivas para o usuário.
+      </p>
+    </div>
+  </div>
+
+  <!-- Unidade 3 -->
+  <div class="unidade"> <!-- Bloco da unidade 3 -->
+    <img src="../img/unidade3.png" alt="Unidade 3"> <!-- Imagem ilustrativa da unidade -->
+    <div class="conteudo-unidade"> <!-- Texto da unidade -->
+      <h3>Unidade 3</h3> <!-- Subtítulo -->
+      <p>
+        Na terceira unidade, você vai mergulhar no papel do Frontend Developer, aplicando 
+        HTML, CSS e JavaScript para criar sites dinâmicos e interativos. Além de aprender 
+        boas práticas de desenvolvimento, você terá contato com ferramentas modernas e 
+        frameworks que facilitam o trabalho do desenvolvedor. O objetivo é preparar você 
+        para atuar de forma profissional na construção de interfaces web completas.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contatos</h2>
+  <div class="contatos-container">
+    
+    <!-- Bloco de texto -->
+    <div class="texto-contatos">
+      <p>📧 Email: atendimento@unifecaf.edu.br</p>
+      <p>📞 Telefone: (11) 1234-5678</p>
+      <p>📍 Endereço: Av. Exemplo, 123 - São Paulo/SP</p>
+      <p>Entre em contato conosco para tirar dúvidas, enviar sugestões ou obter mais informações sobre nossos cursos e unidades.</p>
+      <p>Estamos disponíveis para atender você com rapidez e atenção. Sua participação é essencial para continuarmos melhorando nossos serviços.</p>
+      
+      <!-- Botão de ação -->
+      <button class="btn-contato">Enviar Mensagem</button>
+    </div>
+
+    <!-- Bloco da imagem -->
+    <div class="imagem-contatos">
+      <img src="../img/contato.png" alt="Imagem de contato">
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
