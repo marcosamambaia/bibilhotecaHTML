@@ -10,16 +10,17 @@ O projeto está publicado com GitHub Pages e pode ser acessado pelo link:
 https://marcosamambaia.github.io/bibilhotecaHTML/
 
 ------------------------------------------------------------
-🗂 Estrutura do projeto
+ Estrutura do projeto
 ------------------------------------------------------------
+```
 bibilhotecaHTML/
 ├── index.html        # Página principal
 ├── css/
 │   └── style.css     # Estilos da página
 └── img/              # Imagens utilizadas no site
-
+```
 ------------------------------------------------------------
-📖 Seções do site
+ Seções do site
 ------------------------------------------------------------
 - Banner principal: imagem de destaque da universidade
 - Biblioteca: descrição da biblioteca e galeria de imagens
@@ -28,7 +29,7 @@ bibilhotecaHTML/
 - Contato: email, telefone e endereço para comunicação
 
 ------------------------------------------------------------
-🛠 Tecnologias utilizadas
+ Tecnologias utilizadas
 ------------------------------------------------------------
 - HTML5: estruturação do conteúdo
 - CSS3: estilização e layout responsivo
@@ -37,8 +38,9 @@ bibilhotecaHTML/
  Como clonar e rodar localmente
 ------------------------------------------------------------
 # Clone o repositório
+```
 git clone https://github.com/marcosamambaia/bibilhotecaHTML.git
-
+```
 # Entre na pasta
 cd bibilhotecaHTML
 
